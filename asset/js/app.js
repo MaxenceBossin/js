@@ -57,11 +57,13 @@ function home()
         const btn = document.querySelectorAll('.plus')
         return btn
     }).then(function(btn){
-        showDetail(btn);
+        // showDetail(btn);
     })
 };
 // seconde page
-// on prendre le btn
+// on renvoit la liste de bouton, le foreach permet de detecter l'id
+// l'id permet d'appeler l'api avec le bon post
+
 function showDetail(btn)
 {
     btn.forEach(element => {
