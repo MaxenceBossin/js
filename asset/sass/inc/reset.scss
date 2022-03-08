@@ -11,10 +11,11 @@
 }
 
 body {
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: $hardgrey;
     overflow-x: hidden;
     font-size: 1rem;
-    font-family: 'Arvo', serif;    
+    font-family: 'Roboto', serif;    
 }
 
 /*BALISE DE BASE*/
@@ -37,6 +38,10 @@ strong{
 textarea{
     resize: none;
 }
+
+input {
+    all: unset;
+  }
 /*reset de toute les fonts, on augmente la taille avec des em*/
 
 /*CLASS*/
@@ -65,3 +70,8 @@ textarea{
     visibility: hidden;
 }
 
+::placeholder {
+    color: $white;
+    font-style: italic;
+    font-weight: 600;
+}
