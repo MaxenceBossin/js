@@ -134,16 +134,37 @@ input {
   margin-inline: auto;
 }
 
-body {
-  padding: 2rem;
+#app {
+  padding: 1rem 2rem;
 }
-
-.add {
-  margin: 2rem;
+#app form {
+  margin: 1rem 0;
+  background-color: #2c2f33;
+  color: #FFF;
+  display: flex;
+  flex-flow: column nowrap;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid #7289da;
 }
-
-.content {
-  background-color: red;
+#app form #envoyer {
+  margin: 1rem 0;
+  padding: 0.4rem 1rem;
+  background-color: #7289da;
+  color: #FFF;
+  border-radius: 10rem;
+}
+#app .content {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #7289da;
+  box-shadow: 1px 1px 1px #7289da;
+  transition: 0.9s;
+}
+#app .content:hover {
+  color: #7289da;
+  background-color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */

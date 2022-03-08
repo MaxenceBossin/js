@@ -1,12 +1,36 @@
-body{
-    padding: 2rem;
+#app{
+
+    padding: 1rem 2rem;
+
+    form{
+        margin: 1rem 0;
+        background-color: $grey;
+        color : $white;
+        display: flex;
+        flex-flow : column nowrap;
+        border-radius: 1rem;
+        padding: 1rem ;
+        border: 1px solid $blue;
+        #envoyer{
+            margin: 1rem 0;
+            padding: 0.4rem 1rem;
+            background-color: $blue;
+            color: $white;
+            border-radius: 10rem;
+            
+
+        }
+        
+    }
+    .content{
+        margin: 1rem 0;
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 1px solid $blue;
+        box-shadow: 1px 1px 1px $blue;
+        
+        @include hoverColorBackgroundColor($blue,$white);
+    }
 }
 
-.add{
-    margin: 2rem;
-    
-}
 
-.content{
-    background-color: red;
-}

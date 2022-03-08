@@ -26,7 +26,7 @@
     }
 }
 @mixin hoverColorBackgroundColor($color,$backgroundcolor){
-    transition: .6s;
+    transition: .9s;
     &:hover{
         color: $color;
         background-color: $backgroundcolor;
